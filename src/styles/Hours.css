@@ -1,0 +1,21 @@
+.hours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.hours-text {
+  background-color: #000;
+  color: #fff;
+  width: 20vw;
+  padding: 20px;
+  margin-top: 80px;
+  margin-right: -80px;
+  z-index: 100;
+}
+
+.hours-img {
+  width: 40vw;
+  z-index: 50;
+}

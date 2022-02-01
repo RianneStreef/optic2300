@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.set-language-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

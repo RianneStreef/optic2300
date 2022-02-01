@@ -1,0 +1,23 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.products > * {
+  padding: 20px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .products {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .products > * {
+    width: 30vw;
+  }
+}

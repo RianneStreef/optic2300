@@ -1,11 +1,13 @@
 .header {
   position: fixed;
-  background-color: var(--color-background-light);
+  background-color: #fff;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 0;
+  padding: 0;
+  z-index: 999;
 }
 
 .links {
@@ -16,9 +18,12 @@
   display: flex;
 }
 
+.links li:hover {
+  border-bottom: 1px solid #000;
+}
+
 .logo {
   width: 100px;
-  margin: 10px;
 }
 
 .nav-link {
@@ -31,10 +36,6 @@
   text-align: right;
 }
 
-.nav-link:hover {
-  border-bottom: 1px solid var(--color-text-dark);
-}
-
 .nav-link:visited {
   color: var(--color-text-dark);
 }
@@ -44,6 +45,14 @@
 }
 
 .flag {
-  width: 15px;
-  margin: 10px;
+  width: 20px;
+  margin: 5px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
 }

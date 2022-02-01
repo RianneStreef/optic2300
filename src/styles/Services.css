@@ -1,8 +1,61 @@
 .services {
   display: flex;
+  flex-direction: column;
 }
 
-.reparations {
+.service-text {
+  height: calc(50vh - 35px);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-p {
+  padding: 40px;
+}
+
+.service-image {
+  width: 100%;
+  height: 50vh;
+}
+
+.examen-image {
+  background-image: url("../images/examen.webp");
+  background-size: cover;
+  background-position: center;
+}
+.reparation-image {
+  background-image: url("../images/reparation.webp");
+  background-size: cover;
+  background-position: center;
+}
+.orders-image {
+  background-image: url("../images/commande.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .services {
+    flex-direction: row;
+    height: calc(100vh - 70px);
+  }
+
+  .services > * {
+    width: 33vw;
+  }
+
+  .service-text {
+    height: 45vh;
+  }
+
+  .service-image {
+    height: 45vh;
+  }
+
+  .reparations {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

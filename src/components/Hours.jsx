@@ -14,14 +14,14 @@ const Hours = (props) => {
     : (languageToUse = content.french);
 
   return (
-    <>
+    <div className="hours" id="hours">
       <div className="hours-text">
         <h3>{languageToUse.hoursTitle}</h3>
         <p>{languageToUse.hoursText1}</p>
         <p>{languageToUse.hoursText2}</p>
       </div>
       <img src={hoursImg} alt="" className="hours-img" />
-    </>
+    </div>
   );
 };
 

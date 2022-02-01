@@ -16,28 +16,27 @@ const Services = (props) => {
     : (languageToUse = content.french);
   return (
     <>
-      <h2>Services</h2>
-      <div className="services">
+      <div className="services" id="services">
         <div className="examen">
-          <div className="examen-text">
+          <div className="service-text">
             <h3>{languageToUse.examenTitle}</h3>
-            <p>{languageToUse.examenText}</p>
+            <p className="service-p">{languageToUse.examenText}</p>
           </div>
-          <img src={Examen} alt="" />
+          <div className="service-image examen-image" />
         </div>
         <div className="reparations">
-          <div className="reparations-text">
+          <div className="service-text">
             <h3>{languageToUse.reparationsTitle}</h3>
-            <p>{languageToUse.reparationsText}</p>
+            <p className="service-p">{languageToUse.reparationsText}</p>
           </div>
-          <img src={Reparations} alt="" />
+          <div className="service-image reparation-image" />
         </div>
         <div className="orders">
-          <div className="orders-text">
+          <div className="service-text">
             <h3>{languageToUse.ordersTitle}</h3>
-            <p>{languageToUse.ordersText}</p>
+            <p className="service-p">{languageToUse.ordersText}</p>
           </div>
-          <img src={Orders} alt="" />
+          <div className="service-image orders-image" />
         </div>
       </div>
     </>
