@@ -1,0 +1,8 @@
+.services {
+  display: flex;
+}
+
+.reparations {
+  display: flex;
+  flex-direction: column-reverse;
+}

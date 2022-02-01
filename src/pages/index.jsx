@@ -1,6 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
+import Hero from "../components/Hero";
+import Products from "../components/Products";
+import Hours from "../components/Hours";
+import Services from "../components/Services";
+import Contact from "../components/Contact";
+
 import "../styles/global.css";
 
 import { content } from "../content/languages";
@@ -24,6 +30,13 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+
+      <Hero language={language} languageToUse={languageToUse} />
+      <Products language={language} languageToUse={languageToUse} />
+      <Hours language={language} languageToUse={languageToUse} />
+      <Services language={language} languageToUse={languageToUse} />
+
+      <Contact language={language} languageToUse={languageToUse} />
     </div>
   );
 };
