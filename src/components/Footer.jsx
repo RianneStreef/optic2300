@@ -38,6 +38,7 @@ const Footer = (props) => {
           } `}
         />
       </div>
+      <p>Rue de Caron, 73440 Val Thorens, France</p>
     </div>
   );
 };

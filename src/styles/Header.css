@@ -57,3 +57,16 @@
 .fade {
   opacity: 50%;
 }
+
+.hidden-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-mobile {
+    display: flex;
+  }
+  .hidden-desktop {
+    display: none;
+  }
+}
