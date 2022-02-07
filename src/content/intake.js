@@ -1,9 +1,9 @@
 const intakeInfo = {
-  companyName: "Template",
-  companyAddress: "Template Street",
-  domainName: "www.template.com",
+  companyName: "Optic2300",
+  companyAddress: "Rue de Caron, 73440 Val Thorens, France",
+  domainName: "www.optic2300.com",
 
-  siteName: "Template site",
+  siteName: "Optic 2300",
   highlightColor: "#ff00ff",
 
   taxNumber: "1313",

@@ -9,7 +9,41 @@
 }
 
 .product-image {
-  width: 100%;
+  width: 230px;
+  height: 170px;
+  background-repeat: no-repeat;
+  background-position-x: -230px;
+  transition: background-position 500ms linear;
+  margin: 0 auto;
+}
+
+.product-image:hover {
+  background-position-x: 0px;
+  transition: background-position 500ms linear;
+}
+
+.glasses-image {
+  background-image: url("../images/glasses.png");
+}
+
+.sunglasses-image {
+  background-image: url("../images/sunglasses.png");
+}
+
+.goggles-image {
+  background-image: url("../images/glasses.png");
+}
+
+.lenses-image {
+  background-image: url("../images/sunglasses.png");
+}
+
+.helmet-image {
+  background-image: url("../images/glasses.png");
+}
+
+.accessories-image {
+  background-image: url("../images/sunglasses.png");
 }
 
 @media only screen and (min-width: 768px) {

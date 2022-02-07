@@ -2,8 +2,6 @@ import React from "react";
 
 import "../styles/Products.css";
 
-import glasses from "../images/glasses.png";
-
 import { content } from "../content/languages";
 
 const Products = (props) => {
@@ -15,32 +13,32 @@ const Products = (props) => {
   return (
     <div className="products" id="products">
       <div className="glasses">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image glasses-image" />
         <h3>{languageToUse.glassesTitle}</h3>
         <p>{languageToUse.glassesText}</p>
       </div>
       <div className="sun-glasses">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image sunglasses-image" />
         <h3>{languageToUse.sunGlassesTitle}</h3>
         <p>{languageToUse.sunGlassesText}</p>
       </div>
       <div className="goggles">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image goggles-image" />
         <h3>{languageToUse.gogglesTitle}</h3>
         <p>{languageToUse.gogglesText}</p>
       </div>
       <div className="lenses">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image lenses-image" />
         <h3>{languageToUse.lensesTitle}</h3>
         <p>{languageToUse.lensesText}</p>
       </div>
       <div className="helmet">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image helmet-image" />
         <h3>{languageToUse.helmetTitle}</h3>
         <p>{languageToUse.helmetText}</p>
       </div>
       <div className="accessories">
-        <img src={glasses} alt="" className="product-image" />
+        <div className="product-image accessories-image" />
         <h3>{languageToUse.accessoriesTitle}</h3>
         <p>{languageToUse.accessoriesText}</p>
       </div>

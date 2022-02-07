@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../images/icon.png";
+import logo from "../images/icon-vertical.png";
 
 import flagEn from "../images/icon-en.png";
 import flagFr from "../images/icon-fr.png";
