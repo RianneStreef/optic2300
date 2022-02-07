@@ -46,7 +46,7 @@ const Ul = styled.ul`
     }
   }
   flex-flow: column nowrap;
-  background-color: #000;
+  background-color: #3d3d3d;
   position: fixed;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   top: 0;
