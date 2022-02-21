@@ -1,4 +1,4 @@
-export const intakeInfo = {
+const intakeInfo = {
   companyName: "Optic2300",
   companyAddress: "Rue de Caron, 73440 Val Thorens, France",
   domainName: "www.optic2300.com",
@@ -8,3 +8,5 @@ export const intakeInfo = {
 
   taxNumber: "Numero de Siret: 1313",
 };
+
+export default intakeInfo;
