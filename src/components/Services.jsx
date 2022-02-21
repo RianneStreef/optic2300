@@ -16,7 +16,9 @@ const Services = (props) => {
     : (languageToUse = content.french);
   return (
     <>
-      <div className="services" id="services">
+      <div className="header-placeholder" id="services" />
+
+      <div className="services">
         <div className="examen">
           <div className="service-text">
             <h3>{languageToUse.examenTitle}</h3>

@@ -62,6 +62,8 @@ export const french = {
   message: "Message",
   send: "Envoyer",
 
+  thanks: "Merci pour votre message!",
+
   copyright: "Optic2300",
   mentionsLegal: "Mentions Légal",
   created: "Crée par",

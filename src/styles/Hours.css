@@ -8,7 +8,7 @@
 .hours-text {
   background-color: #000;
   color: #fff;
-  width: 20vw;
+  width: 30vw;
   padding: 20px;
   margin-top: 80px;
   margin-right: -80px;
@@ -16,6 +16,16 @@
 }
 
 .hours-img {
-  width: 40vw;
+  width: 60vw;
   z-index: 50;
+}
+
+@media only screen and (min-width: 768px) {
+  .hours-text {
+    width: 20vw;
+  }
+
+  .hours-img {
+    width: 40vw;
+  }
 }

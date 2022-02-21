@@ -10,6 +10,12 @@ body {
   font-family: "Raleway";
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .hidden {
   display: none;
 }
@@ -24,4 +30,9 @@ body {
   padding: 10px 20px;
   border: none;
   background-color: #fff;
+  font-family: "Raleway";
+}
+
+.header-placeholder {
+  height: 72px;
 }
