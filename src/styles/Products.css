@@ -24,19 +24,40 @@
 }
 
 .glasses-image {
-  background-image: url("../images/glasses.png");
+  width: 230px;
+  height: 170px;
+  background-image: url("../images/glasses.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .sunglasses-image {
-  background-image: url("../images/sunglasses.png");
+  background-image: url("../images/sunglasses.jpeg");
+
+  width: 230px;
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .goggles-image {
-  background-image: url("../images/glasses.png");
+  background-image: url("../images/masque.jpeg");
+  width: 230px;
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .lenses-image {
-  background-image: url("../images/sunglasses.png");
+  background-image: url("../images/contacts.jpeg");
+  width: 230px;
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .helmet-image {

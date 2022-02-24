@@ -21,17 +21,17 @@
 }
 
 .examen-image {
-  background-image: url("../images/examen.webp");
+  background-image: url("../images/examen.jpeg");
   background-size: cover;
   background-position: center;
 }
 .reparation-image {
-  background-image: url("../images/reparation.webp");
+  background-image: url("../images/reparations.jpeg");
   background-size: cover;
   background-position: center;
 }
 .orders-image {
-  background-image: url("../images/commande.webp");
+  background-image: url("../images/commande.jpeg");
   background-size: cover;
   background-position: center;
 }

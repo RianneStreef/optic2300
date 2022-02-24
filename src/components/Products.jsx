@@ -16,7 +16,7 @@ const Products = (props) => {
 
       <div className="products">
         <div className="glasses">
-          <div className="product-image glasses-image" />
+          <div className="glasses-image" />
           <h3>{languageToUse.glassesTitle}</h3>
           <p>{languageToUse.glassesText}</p>
         </div>
