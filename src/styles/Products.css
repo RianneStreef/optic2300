@@ -61,6 +61,7 @@
     width: 35vw;
     margin: 50px;
   }
+
   .product-image {
     width: 450px;
     height: 350px;
@@ -114,5 +115,60 @@
 
   .lenses-image-desk {
     background-image: url("../images/boite-lentilles-desk.jpg");
+  }
+
+  .products-vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .products-vertical > * {
+    width: 20vw;
+    margin: 50px;
+    justify-content: space-between;
+  }
+
+  .product-image-vertical {
+    width: 230px;
+    height: 170px;
+    background-repeat: no-repeat;
+    background-position-x: -230px;
+    transition: background-position 500ms linear;
+    margin: 0 auto;
+  }
+
+  .product-image-vertical:hover {
+    background-position-x: 0px;
+    transition: background-position 500ms linear;
+  }
+
+  .sun-glasses-vertical,
+  .lenses-vertical {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .glasses-vertical,
+  .goggles-vertical {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .glasses-image-vertical {
+    background-image: url("../images/lunettes-de-vue-mob.jpg");
+  }
+
+  .sunglasses-image-vertical {
+    background-image: url("../images/lunettes-soleil-mob.jpg");
+  }
+
+  .goggles-image-vertical {
+    background-image: url("../images/masque-mob.jpg");
+  }
+
+  .lenses-image-vertical {
+    background-image: url("../images/boite-lentilles-mob.jpg");
   }
 }

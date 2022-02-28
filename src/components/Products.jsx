@@ -68,6 +68,38 @@ const Products = (props) => {
           <p>{languageToUse.lensesText}</p>
         </div>
       </div>
+
+      <div className="products-vertical">
+        <div className="glasses-vertical">
+          <div className="product-image-vertical glasses-image-vertical" />
+
+          <div>
+            <h3 className="product-title">{languageToUse.glassesTitle}</h3>
+            <p>{languageToUse.glassesText}</p>
+          </div>
+        </div>
+        <div className="sun-glasses-vertical">
+          <div className="product-image-vertical  sunglasses-image-vertical" />
+          <div>
+            <h3 className="product-title">{languageToUse.sunGlassesTitle}</h3>
+            <p>{languageToUse.sunGlassesText}</p>
+          </div>
+        </div>
+        <div className="goggles-vertical">
+          <div className="product-image-vertical  goggles-image-vertical" />
+          <div>
+            <h3 className="product-title">{languageToUse.gogglesTitle}</h3>
+            <p>{languageToUse.gogglesText}</p>
+          </div>
+        </div>
+        <div className="lenses-vertical">
+          <div className="product-image-vertical lenses-image-vertical" />
+          <div>
+            <h3 className="product-title">{languageToUse.lensesTitle}</h3>
+            <p>{languageToUse.lensesText}</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
