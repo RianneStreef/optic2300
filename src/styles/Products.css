@@ -7,6 +7,11 @@
 
 .products > * {
   padding: 20px;
+  margin: 10px;
+}
+
+.product-title {
+  font-size: 40px;
 }
 
 .product-image {
@@ -24,49 +29,28 @@
 }
 
 .glasses-image {
-  width: 230px;
-  height: 170px;
-  background-image: url("../images/glasses.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("../images/lunettes-de-vue-mob.jpg");
 }
 
 .sunglasses-image {
-  background-image: url("../images/sunglasses.jpeg");
-
-  width: 230px;
-  height: 170px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("../images/lunettes-soleil-mob.jpg");
 }
 
 .goggles-image {
-  background-image: url("../images/masque.jpeg");
-  width: 230px;
-  height: 170px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("../images/masque-mob.jpg");
 }
 
 .lenses-image {
-  background-image: url("../images/contacts.jpeg");
-  width: 230px;
-  height: 170px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("../images/boite-lentilles-mob.jpg");
 }
 
-.helmet-image {
+/* .helmet-image {
   background-image: url("../images/glasses.png");
 }
 
 .accessories-image {
   background-image: url("../images/sunglasses.png");
-}
+} */
 
 @media only screen and (min-width: 768px) {
   .products {
@@ -74,6 +58,61 @@
     flex-wrap: wrap;
   }
   .products > * {
-    width: 30vw;
+    width: 35vw;
+    margin: 50px;
+  }
+  .product-image {
+    width: 450px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position-x: -450px;
+    transition: background-position 500ms linear;
+    margin: 0 auto;
+  }
+
+  .glasses-image {
+    background-image: url("../images/lunettes-de-vue.jpg");
+  }
+
+  .sunglasses-image {
+    background-image: url("../images/lunettes-soleil.jpg");
+  }
+
+  .goggles-image {
+    background-image: url("../images/masque-v2.jpg");
+  }
+
+  .lenses-image {
+    background-image: url("../images/boite-lentilles.jpg");
+  }
+
+  .product-image-desk {
+    width: 325px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position-x: -325px;
+    transition: background-position 500ms linear;
+    margin: 0 auto;
+  }
+
+  .product-image-desk:hover {
+    background-position-x: 0px;
+    transition: background-position 500ms linear;
+  }
+
+  .glasses-image-desk {
+    background-image: url("../images/lunettes-de-vue-desk.jpg");
+  }
+
+  .sunglasses-image-desk {
+    background-image: url("../images/lunettes-soleil-desk.jpg");
+  }
+
+  .goggles-image-desk {
+    background-image: url("../images/masque-desk.jpg");
+  }
+
+  .lenses-image-desk {
+    background-image: url("../images/boite-lentilles-desk.jpg");
   }
 }

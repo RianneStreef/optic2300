@@ -19,10 +19,6 @@
   display: flex;
 }
 
-.links li:hover {
-  border-bottom: 1px solid #000;
-}
-
 .logo {
   width: 100px;
   margin-right: 10px;
@@ -32,6 +28,10 @@
   color: var(--color-text-dark);
   text-decoration: none;
   margin: 10px;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #000;
 }
 
 .logo-link {

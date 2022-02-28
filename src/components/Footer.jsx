@@ -22,7 +22,7 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <Copyright />
-      <div className="set-language-footer">
+      <div className="set-language-footer hidden-desktop">
         <img
           src={flagEn}
           onClick={() => handleSetLanguage("english")}
@@ -38,7 +38,7 @@ const Footer = (props) => {
           } `}
         />
       </div>
-      <p>Rue de Caron, 73440 Val Thorens, France</p>
+      <p className="address">Rue de Caron, 73440 Val Thorens, France</p>
     </div>
   );
 };

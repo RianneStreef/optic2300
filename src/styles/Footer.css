@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.address {
+  text-align: center;
+}
+
 .set-language-footer {
   display: flex;
   justify-content: center;

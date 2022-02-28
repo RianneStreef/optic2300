@@ -4,7 +4,7 @@ import "../styles/Hours.css";
 
 import { content } from "../content/languages";
 
-import hoursImg from "../images/examen.webp";
+import hoursImg from "../images/shop.jpeg";
 
 const Hours = (props) => {
   let { language, languageToUse } = props;
