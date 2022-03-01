@@ -26,13 +26,13 @@
 } */
 
 .logo-hero {
-  width: 50%;
-  margin: auto;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .frosted-glass {
   width: 80vw;
-  margin: auto;
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -47,6 +47,8 @@
   .frosted-glass {
     width: 40vw;
     margin: 60px;
+    margin-bottom: 150px;
+    margin-top: 0;
   }
 
   .logo-hero {
