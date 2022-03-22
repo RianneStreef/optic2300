@@ -5,6 +5,16 @@
   margin-top: 100px;
 }
 
+.logo-banner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.brand-logo {
+  width: 5%;
+}
+
 .products > * {
   padding: 20px;
   margin: 10px;
@@ -48,13 +58,13 @@
   .products {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 100px;
     flex-wrap: wrap;
   }
   .products > * {
-    width: 20vw;
-    justify-content: space-between;
+    width: 35vw;
+    justify-content: space-around;
   }
 
   .product-image {
@@ -81,5 +91,11 @@
   .goggles {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .products > * {
+    width: 20vw;
   }
 }

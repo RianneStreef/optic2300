@@ -6,7 +6,7 @@ const intakeInfo = {
   siteName: "Optic 2300",
   highlightColor: "#ff00ff",
 
-  taxNumber: "Numero de Siret: 1313",
+  taxNumber: "Numero de Siret: 527 499 297 00010",
 };
 
 export default intakeInfo;

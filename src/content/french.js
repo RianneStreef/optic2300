@@ -39,8 +39,8 @@ export const french = {
     "Description de l'avantage. Rédigez un court texte expliquant cette fonctionnalité et son importance pour les visiteurs, ou les clients. N'ayez pas peur de vous mettre en avant ! Profitez de cette occasion pour souligner vos points forts, les bénéfices et avantages que vous apportez.",
 
   hoursTitle: "Horaires d'ouverture",
-  hoursText1: "Tous les jours",
-  hoursText2: "9h-19h30",
+  hoursText1: "Samedi - Lundi: 9h - 19h30",
+  hoursText2: "Mardi - Vendredi: 9h - 12h30 & 15h - 19h30",
 
   examenTitle: "EXAMENS DE VUE",
   examenText:

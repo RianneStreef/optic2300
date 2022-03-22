@@ -4,35 +4,47 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  background-image: url("../images/header-image2.jpeg");
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: 70px;
-  background-repeat: no-repeat;
+  position: relative;
 }
 
-/* .background-1 {
-  background-image: url("../images/header-image.jpg");
-  background-size: cover;
-  background-position: center;
-  transition: background-image 2s ease-in-out;
-}
-
-.background-2 {
+.hero-image-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
   background-image: url("../images/header-image2.jpeg");
   background-size: cover;
   background-position: center;
-  transition: background-image 2s ease-in-out;
-} */
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-image-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/background1.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  z-index: 10;
+}
 
 .logo-hero {
   width: 65%;
-  margin: 0 auto;
+  position: absolute;
 }
 
 .frosted-glass {
   width: 80vw;
-  margin: 30px auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -41,19 +53,15 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
   padding: 20px;
+  position: absolute;
 }
 
 @media only screen and (min-width: 768px) {
   .frosted-glass {
     width: 40vw;
-    margin: 60px;
-    margin-bottom: 150px;
-    margin-top: 0;
   }
 
   .logo-hero {
     width: 40%;
-    margin-right: 100px;
-    margin-bottom: 100px;
   }
 }

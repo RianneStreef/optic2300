@@ -37,6 +37,14 @@ body {
   height: 72px;
 }
 
+.fade-in {
+  transition: opacity 2500ms ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 2500ms ease;
+}
+
 @media only screen and (min-width: 768px) {
   .hidden-desktop {
     display: none;

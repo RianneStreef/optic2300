@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import Hero from "../components/Hero";
 import Products from "../components/Products";
+import Insta from "../components/Insta";
 import Hours from "../components/Hours";
 import Services from "../components/Services";
 import Contact from "../components/Contact";
@@ -33,9 +34,9 @@ const IndexPage = function (props) {
 
       <Hero language={language} languageToUse={languageToUse} />
       <Products language={language} languageToUse={languageToUse} />
+      <Insta />
       <Hours language={language} languageToUse={languageToUse} />
       <Services language={language} languageToUse={languageToUse} />
-
       <Contact language={language} languageToUse={languageToUse} />
     </div>
   );

@@ -4,6 +4,10 @@ import "../styles/Products.css";
 
 import { content } from "../content/languages";
 
+import rayBan from "../images/rayBan.png";
+import electric from "../images/electric.png";
+import oakley from "../images/oakley.jpeg";
+
 const Products = (props) => {
   let { language, languageToUse } = props;
 
@@ -13,7 +17,11 @@ const Products = (props) => {
   return (
     <>
       <div className="header-placeholder" id="products" />
-
+      <div className="logo-banner">
+        <img src={rayBan} alt="Ray Ban" className="brand-logo" />
+        <img src={electric} alt="Electric" className="brand-logo" />
+        <img src={oakley} alt="Oakley" className="brand-logo" />
+      </div>
       <div className="products">
         <div className="glasses">
           <div className="product-image glasses-image" />
@@ -34,6 +42,16 @@ const Products = (props) => {
           <div className="product-image lenses-image" />
           <h3 className="product-title">{languageToUse.lensesTitle}</h3>
           <p>{languageToUse.lensesText}</p>
+        </div>
+        <div className="helmets">
+          <div className="product-image helmets-image" />
+          <h3 className="product-title">{languageToUse.helmetTitle}</h3>
+          <p>{languageToUse.helmetText}</p>
+        </div>
+        <div className="accessories">
+          <div className="product-image accessories-image" />
+          <h3 className="product-title">{languageToUse.accessoriesTitle}</h3>
+          <p>{languageToUse.accessoriesText}</p>
         </div>
       </div>
     </>
