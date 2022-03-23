@@ -21,13 +21,17 @@ const Hero = (props) => {
       console.log(background);
       console.log(hero1.classList);
       if (background < 3) {
-        setBackground(background + 1);
+        // background = background + 1;
+        setBackground((background = background + 1));
+        console.log("background + 1");
       } else {
-        setBackground(1);
+        background = 1;
+        // setBackground(1);
+        console.log("background back to 1");
       }
     }, 5000);
     console.log(background);
-    return () => clearInterval();
+    // return () => clearInterval();
   }, []);
 
   return (
