@@ -12,14 +12,18 @@ const Hero = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
-  let background = 1;
+  let [background, setBackground] = useState(1);
 
   useEffect(() => {
+    let hero1 = document.getElementById("hero1");
+
     setInterval(() => {
+      console.log(background);
+      console.log(hero1.classList);
       if (background < 3) {
-        background = background + 1;
+        setBackground(background + 1);
       } else {
-        background = 1;
+        setBackground(1);
       }
     }, 5000);
     console.log(background);
