@@ -12,32 +12,58 @@ const Hero = (props) => {
     ? (languageToUse = content.english)
     : (languageToUse = content.french);
 
+  let background = 1;
+
   useEffect(() => {
-    let hero1 = document.getElementById("hero1");
-    let hero2 = document.getElementById("hero2");
     setInterval(() => {
-      if (hero1.classList.contains("fade-in")) {
-        hero1.classList.remove("fade-in");
-        hero1.classList.add("fade-out");
-      } else hero1.classList.contains("fade-out");
-      {
-        hero1.classList.remove("fade-out");
-        hero1.classList.add("fade-in");
-      }
-      if (hero2.classList.contains("fade-in")) {
-        hero2.classList.remove("fade-in");
-        hero2.classList.add("fade-out");
-      } else if (hero2.classList.contains("fade-out")) {
-        hero2.classList.remove("fade-out");
-        hero2.classList.add("fade-in");
+      if (background < 3) {
+        background = background + 1;
+      } else {
+        background = 1;
       }
     }, 5000);
-  });
+    console.log(background);
+    return () => clearInterval();
+  }, []);
 
   return (
     <div className="hero">
-      <div className="hero-image-1 fade-in" id="hero1" />
-      <div className="hero-image-2 fade-out" id="hero2" />
+      <div
+        className={`hero-image hero-image-1 ${
+          background === 1
+            ? "fade-in"
+            : background === 2
+            ? "hidden"
+            : background === 3
+            ? "fade-out"
+            : null
+        }`}
+        id="hero1"
+      />
+      <div
+        className={`hero-image hero-image-2 ${
+          background === 2
+            ? "fade-in"
+            : background === 3
+            ? "hidden"
+            : background === 1
+            ? "fade-out"
+            : null
+        }`}
+        id="hero2"
+      />
+      <div
+        className={`hero-image hero-image-3 ${
+          background === 3
+            ? "fade-in"
+            : background === 1
+            ? "hidden"
+            : background === 2
+            ? "fade-out"
+            : null
+        }`}
+        id="hero3"
+      />
       <div className="hero-content">
         <img src={logo} className="logo-hero" />
         <div className="frosted-glass">

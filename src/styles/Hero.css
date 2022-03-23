@@ -7,53 +7,57 @@
   position: relative;
 }
 
-.hero-image-1 {
+.hero-image {
   position: absolute;
   top: 0;
   left: 0;
   height: 100vh;
   width: 100vw;
-  background-image: url("../images/header-image2.jpeg");
   background-size: cover;
   background-position: center;
   opacity: 1;
   z-index: 1;
 }
 
+.hero-image-1 {
+  background-image: url("../images/header-image2.jpeg");
+}
+
 .hero-image-2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
   background-image: url("../images/background1.jpeg");
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  z-index: 1;
+}
+
+.hero-image-3 {
+  background-image: url("../images/header-image.jpg");
 }
 
 .hero-content {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
   z-index: 10;
 }
 
 .logo-hero {
   width: 65%;
-  position: absolute;
+  margin: 0 50px;
 }
 
 .frosted-glass {
   width: 80vw;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 2px;
   padding: 20px;
-  position: absolute;
+  margin: 50px;
 }
 
 @media only screen and (min-width: 768px) {

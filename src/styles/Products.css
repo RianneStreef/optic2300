@@ -54,6 +54,14 @@
   background-image: url("../images/boite-lentilles-mob.jpg");
 }
 
+.helmets-image {
+  background-image: url("../images/glasses.png");
+}
+
+.accessories-image {
+  background-image: url("../images/lunettes-soleil.jpg");
+}
+
 @media only screen and (min-width: 768px) {
   .products {
     display: flex;
@@ -63,7 +71,7 @@
     flex-wrap: wrap;
   }
   .products > * {
-    width: 35vw;
+    width: 30%;
     justify-content: space-around;
   }
 
@@ -82,7 +90,7 @@
   }
 
   .sun-glasses,
-  .lenses {
+  .helmets {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -96,6 +104,6 @@
 
 @media only screen and (min-width: 992px) {
   .products > * {
-    width: 20vw;
+    width: 27%;
   }
 }
